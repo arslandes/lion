@@ -44,6 +44,9 @@ img{
 	align-items: center;
 	border: 2px solid #d9dadb;
 }
+.selling-container-item:hover{
+	background: #ced2d9;
+}
 .selling-container-item img{
 	width: 253px;
 }
@@ -54,6 +57,7 @@ img{
 	margin-bottom: 20px;
 }
 #advantages{
+	width: 80%;
 	padding-top: 20px;
 	display: flex;
 	justify-content: space-around;
@@ -118,4 +122,28 @@ textarea{
 
 h5{
 	margin-bottom: 10px;
+}
+#footer_icons{
+	display: flex;
+	justify-content: center;
+}
+.icons{
+	width: 50px;
+}
+footer{
+	background: #000000;
+	padding-top: 20px;
+	color: white;
+}
+.footer_contact_item{
+	text-align: center;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+.about-item:hover{
+	border-bottom: 2px solid #d1363e;
+}
+.icons:hover{
+	border: 2px solid #d1363e;
+	border-radius: 50%;
 }
